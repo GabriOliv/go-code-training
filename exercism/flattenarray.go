@@ -4,12 +4,6 @@ import (
 	"fmt"
 )
 
-// func flattenarray(array []int) []int {
-// 	fmt.Println(array)
-
-// 	return nil
-// }
-
 func flattenArray(array interface{}) []interface{} {
 	var output []interface{}
 
